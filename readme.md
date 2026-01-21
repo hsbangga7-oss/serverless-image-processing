@@ -18,15 +18,15 @@ S3 Destination Bucket – Stores resized images.
 Setup Instructions
 1. Create S3 Buckets
 
-source-bucket – For original images
+  source-bucket – For original images
 
-destination-bucket – For resized images
+  destination-bucket – For resized images
 
 2. Configure Lambda
 
-Runtime: Node.js 20.x
+   Runtime: Node.js 20.x
 
-Handler: index.handler
+  Handler: index.handler
 
 Memory: 512 MB
 
@@ -71,5 +71,6 @@ AWS SDK v3 (@aws-sdk/client-s3) – For accessing S3
 License
 
 MIT License
+
 
 

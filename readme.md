@@ -18,28 +18,28 @@ S3 Destination Bucket – Stores resized images.
 Setup Instructions
 1. Create S3 Buckets
 
-&nsbp;source-bucket – For original images
-&nsbp;destination-bucket – For resized images
+&nsbp; source-bucket – For original images
+&nsbp; destination-bucket – For resized images
 
 2. Configure Lambda
 
-&nsbp;Runtime: Node.js 20.x
-&nsbp;Handler: index.handler
-&nsbp;Memory: 512 MB
-&nsbp;Timeout: 15 seconds (adjust for large images)
-&nsbp;Environment Variable: DEST_BUCKET = your-destination-bucket-name
+&nsbp; Runtime: Node.js 20.x
+&nsbp; Handler: index.handler
+&nsbp; Memory: 512 MB
+&nsbp; Timeout: 15 seconds (adjust for large images)
+&nsbp; Environment Variable: DEST_BUCKET = your-destination-bucket-name
 
 3. Install Dependencies Locally
 
-&nsbp;Install jimp@0.16.1 and @aws-sdk/client-s3 using npm in your project directory.
+&nsbp; Install jimp@0.16.1 and @aws-sdk/client-s3 using npm in your project directory.
 
 4. Add Lambda Handler
 
-&nsbp;Create index.js and export a function named handler that fetches the image from the source bucket, resizes it with Jimp, and uploads it to the destination bucket.
+&nsbp; Create index.js and export a function named handler that fetches the image from the source bucket, resizes it with Jimp, and uploads it to the destination bucket.
 
 5. Deploy to Lambda
 
-&nsbp;Zip the index.js file along with the node_modules folder and upload it via the AWS Lambda console. Then set up an S3 trigger for the source bucket using object creation events.
+&nsbp; Zip the index.js file along with the node_modules folder and upload it via the AWS Lambda console. Then set up an S3 trigger for the source bucket using object creation events.
 
 Usage
 
@@ -58,6 +58,7 @@ Dependencies
 Jimp 0.16.1 – For image processing
 
 AWS SDK v3 (@aws-sdk/client-s3) – For accessing S3
+
 
 
 

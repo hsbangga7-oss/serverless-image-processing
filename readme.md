@@ -4,10 +4,10 @@ This project implements a serverless image resizing service using AWS Lambda. Im
 
 Features
 
---Resizes images automatically when uploaded to S3
---Built with Node.js and Jimp
---No servers to manage; fully serverless
---Easy to extend for multiple sizes or formats
+- Resizes images automatically when uploaded to S3
+- Built with Node.js and Jimp
+- No servers to manage; fully serverless
+- Easy to extend for multiple sizes or formats
 
 Architecture
 
@@ -73,3 +73,4 @@ AWS SDK v3 (@aws-sdk/client-s3) – For accessing S3
 License
 
 MIT License
+

@@ -11,9 +11,9 @@ Features
 
 Architecture
 
-S3 Source Bucket – Upload your images here.
-AWS Lambda Function – Triggered by S3 object creation events. It downloads the image, resizes it using Jimp, and uploads it to the destination bucket.
-S3 Destination Bucket – Stores resized images.
+S3 Source Bucket – Upload your images here.  
+AWS Lambda Function – Triggered by S3 object creation events. It downloads the image, resizes it using Jimp, and uploads it to the destination bucket.  
+S3 Destination Bucket – Stores resized images.  
 
 Setup Instructions
 1. Create S3 Buckets
@@ -58,6 +58,7 @@ Dependencies
 Jimp 0.16.1 – For image processing
 
 AWS SDK v3 (@aws-sdk/client-s3) – For accessing S3
+
 
 
 

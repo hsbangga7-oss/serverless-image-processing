@@ -23,11 +23,11 @@ Setup Instructions
 
 2. Configure Lambda
 
-&nbsp; Runtime: Node.js 20.x
-&nbsp; Handler: index.handler
-&nbsp; Memory: 512 MB
-&nbsp; Timeout: 15 seconds (adjust for large images)
-&nbsp; Environment Variable: DEST_BUCKET = your-destination-bucket-name
+&nbsp; Runtime: Node.js 20.x  
+&nbsp; Handler: index.handler  
+&nbsp; Memory: 512 MB  
+&nbsp; Timeout: 15 seconds (adjust for large images)  
+&nbsp; Environment Variable: DEST_BUCKET = your-destination-bucket-name  
 
 3. Install Dependencies Locally
 
@@ -58,6 +58,7 @@ Dependencies
 Jimp 0.16.1 – For image processing
 
 AWS SDK v3 (@aws-sdk/client-s3) – For accessing S3
+
 
 
 

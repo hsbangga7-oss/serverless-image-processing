@@ -12,9 +12,7 @@ Features
 Architecture
 
 S3 Source Bucket – Upload your images here.
-
 AWS Lambda Function – Triggered by S3 object creation events. It downloads the image, resizes it using Jimp, and uploads it to the destination bucket.
-
 S3 Destination Bucket – Stores resized images.
 
 Setup Instructions
@@ -30,7 +28,7 @@ Runtime: Node.js 20.x
 
 Handler: index.handler
 
-Memory: 512 MB (adjust if needed)
+Memory: 512 MB
 
 Timeout: 15 seconds (adjust for large images)
 
@@ -73,4 +71,5 @@ AWS SDK v3 (@aws-sdk/client-s3) – For accessing S3
 License
 
 MIT License
+
 

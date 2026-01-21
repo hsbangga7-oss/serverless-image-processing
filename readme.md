@@ -18,7 +18,7 @@ S3 Destination Bucket – Stores resized images.
 Setup Instructions
 1. Create S3 Buckets
 
-&nbsp; source-bucket – For original images
+&nbsp; source-bucket – For original images  
 &nbsp; destination-bucket – For resized images
 
 2. Configure Lambda
@@ -58,6 +58,7 @@ Dependencies
 Jimp 0.16.1 – For image processing
 
 AWS SDK v3 (@aws-sdk/client-s3) – For accessing S3
+
 
 
 

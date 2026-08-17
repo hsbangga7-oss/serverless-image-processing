@@ -268,7 +268,8 @@ Used for reading, manipulating, and resizing images.
 
 AWS SDK for JavaScript
 
-`@aws-sdk/client-s3` is used to interact with Amazon S3 from the Lambda function.
+@aws-sdk/client-s3 is used to interact with Amazon S3 from the Lambda function.
+
 ---
 
 ## Learning Outcomes

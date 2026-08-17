@@ -3,9 +3,7 @@
 ## Project Overview
 
 This project implements a serverless image resizing pipeline using AWS Lambda, Amazon S3, Node.js, and Jimp.
-
 When an image is uploaded to an S3 source bucket, an S3 Object Created event automatically triggers a Lambda function. The function downloads the original image, resizes it while maintaining its aspect ratio, and uploads the processed image to a separate destination S3 bucket.
-
 The architecture requires no dedicated servers and can be extended to support multiple image sizes, formats, or additional image-processing operations.
 ---
 ## Repository Structure

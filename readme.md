@@ -150,6 +150,7 @@ Recommended configuration:
 | Memory               | 512 MB          |
 | Timeout              | 15 seconds      |
 | Environment Variable | `DEST_BUCKET`   |
+
 Configure the destination bucket as:
 ```
 DEST_BUCKET=your-destination-bucket-name

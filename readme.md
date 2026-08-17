@@ -262,8 +262,7 @@ Avoid granting unrestricted permissions such as `s3:*` on all buckets when narro
 ## Dependencies
 Jimp `0.16.1`
 Used for reading, manipulating, and resizing images.
-
-AWS SDK for JavaScript v3
+AWS SDK for JavaScript
 `@aws-sdk/client-s3` is used to interact with Amazon S3 from the Lambda function.
 ---
 
